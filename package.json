@@ -1,0 +1,45 @@
+{
+  "name": "moonlit-outback-theme",
+  "displayName": "Moonlit Outback Theme",
+  "description": "A generated theme for Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "LAK132",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "prestart": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Moonlit Outback",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.10",
+    "typescript": "^2.2.1",
+    "vscode-theme-generator": "*"
+  },
+  "keywords": [
+    "moonlit",
+    "dark",
+    "black",
+    "outback",
+    "red",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LAK132/moonlit-outback.git"
+  },
+  "homepage": "https://github.com/LAK132/moonlit-outback",
+  "license": "MIT"
+}
